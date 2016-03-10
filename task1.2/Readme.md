@@ -2,7 +2,8 @@
 
 Вывод запуска скрипта `run.sh`.
 
-```$ ./run.sh
+```
+$ ./run.sh
 + g++ -Wall -std=c++11 -O2 -pthread futex.cpp -o futex
 + g++ -Wall -std=c++11 -O2 -pthread mutex.cpp -o mutex
 + ./futex 4
